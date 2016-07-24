@@ -33,7 +33,7 @@ namespace MVC001.Controllers
 
             queryOptions.TotalPages = (int)Math.Ceiling((double)db.Authors.Count() / queryOptions.PageSize);
 
-            ViewBag.QueryOptions = queryOptions;
+            //ViewBag.QueryOptions = queryOptions;
 
             var mapperConfig = new MapperConfiguration(cfg =>
             {
@@ -42,9 +42,12 @@ namespace MVC001.Controllers
 
             var mapper = mapperConfig.CreateMapper();
 
-            var authorViewModelList = mapper.Map<IList<Author>, IList<AuthorViewModel>>(authors.ToList());
+            var authorViewModelList = mapper.Map<List<Author>, List<AuthorViewModel>>(authors.ToList());
 
-            return View(authorViewModelList);
+            return View(new ResultList<AuthorViewModel> {
+                QueryOptions = queryOptions,
+                Results = authorViewModelList
+            });
         }
 
         // GET: Authors/Details/5

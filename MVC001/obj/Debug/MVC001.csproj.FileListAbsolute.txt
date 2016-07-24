@@ -43,7 +43,10 @@ D:\MVC101\MVC001\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\MVC101\MVC001\bin\Microsoft.Web.Infrastructure.dll
 D:\MVC101\MVC001\bin\Newtonsoft.Json.dll
 D:\MVC101\MVC001\bin\System.Linq.Dynamic.dll
+D:\MVC101\MVC001\bin\System.Net.Http.Formatting.dll
 D:\MVC101\MVC001\bin\System.Web.Helpers.dll
+D:\MVC101\MVC001\bin\System.Web.Http.dll
+D:\MVC101\MVC001\bin\System.Web.Http.WebHost.dll
 D:\MVC101\MVC001\bin\System.Web.Mvc.dll
 D:\MVC101\MVC001\bin\System.Web.Optimization.dll
 D:\MVC101\MVC001\bin\System.Web.Razor.dll
@@ -62,6 +65,9 @@ D:\MVC101\MVC001\bin\Microsoft.AI.WindowsServer.xml
 D:\MVC101\MVC001\bin\Microsoft.ApplicationInsights.xml
 D:\MVC101\MVC001\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\MVC101\MVC001\bin\Newtonsoft.Json.xml
+D:\MVC101\MVC001\bin\System.Net.Http.Formatting.xml
+D:\MVC101\MVC001\bin\System.Web.Http.xml
+D:\MVC101\MVC001\bin\System.Web.Http.WebHost.xml
 D:\MVC101\MVC001\bin\System.Web.Helpers.xml
 D:\MVC101\MVC001\bin\System.Web.Mvc.xml
 D:\MVC101\MVC001\bin\System.Web.Optimization.xml
