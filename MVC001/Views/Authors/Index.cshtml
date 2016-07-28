@@ -86,7 +86,7 @@
 
 @section scripts{
     @Scripts.Render("/Scripts/Services/PagingService.js"
-                    ,"/Scripts/ViewModels/AuthorIndexViewModel.js")
+                    , "/Scripts/ViewModels/AuthorIndexViewModel.js")
     <script>
         var viewModel = new AuthorIndexViewModel(@Html.HtmlConvertToJson(Model));
         ko.applyBindings(viewModel);

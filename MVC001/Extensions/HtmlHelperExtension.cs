@@ -50,12 +50,14 @@ namespace MVC001.Extensions
             var urlHelper = new UrlHelper(htmlHelper.ViewContext.RequestContext);
             return new MvcHtmlString(string.Format(
                                                     "<nav>" +
-                                                    " <ul class=\"pager\">" +
-                                                    " <li data-bind=\"css: pagingService.buildPreviousClass()\">" +
-                                                    " <a href=\"{0}\" data-bind=\"click: pagingService.previousPage\">Previous </a></li> " +
-                                                    " <li data-bind=\"css: pagingService.buildNextClass()\">" +
-                                                    " <a href=\"{0}\" data-bind=\"click: pagingService.nextPage\">Next</a ></li></li> " +
-                                                    " </ul>" +
+                                                        " <ul class=\"pager\">" +
+                                                            " <li data-bind=\"css: pagingService.buildPreviousClass()\">" +
+                                                                " <a href=\"{0}\" data-bind=\"click: pagingService.previousPage\">Previous </a>"+
+                                                            "</li> " +
+                                                            "<li data-bind=\"css: pagingService.buildNextClass()\">" +
+                                                                " <a href=\"{0}\" data-bind=\"click: pagingService.nextPage\">Next</a >"+
+                                                            "</li>" +
+                                                        " </ul>" +
                                                     "</nav>",
                                                     @urlHelper.Action(actionName)
                                                     ));

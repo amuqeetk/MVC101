@@ -18,6 +18,7 @@ namespace MVC001
         {
             AreaRegistration.RegisterAllAreas();
 
+            // Add the Web API Route Register Class
             GlobalConfiguration.Configure(WebApiConfig.Register);
 
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

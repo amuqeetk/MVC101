@@ -6,9 +6,9 @@ namespace MVC001.App_Start
     {
         public static void Register(HttpConfiguration config)
         {
-            // Web API Configuration and Service
+            // Web API Configuration and services
 
-            //Web API Route
+            //Web API Route - Imported the Web API 2.0+ attribute route feature
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
